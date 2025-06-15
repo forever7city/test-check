@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "MaplestoryOTFBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NEXONFootballGothicBA1";
+  src: url("https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.s-title {
+  color: white;
+}
+
+.quizSection {
+  width: 35%;
+}
+
+.quiz-form div {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.timer-div {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.write-answer {
+  width: 70%;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.question {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: MaplestoryOTFBold;
+  margin: 0;
+  margin-bottom: 20px;
+  color: black;
+}
+
+label {
+  margin-right: 25px;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: NEXONFootballGothicBA1;
+}
+
+label input {
+  width: 15px;
+  height: 15px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d63333;
+}

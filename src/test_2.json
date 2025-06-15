@@ -1,0 +1,21 @@
+{
+  "title": "test_2",
+  "questions": [
+    {
+      "text": "test",
+      "type": "객관식",
+      "options": ["1", "2", "3", "4"],
+      "answer": "1"
+    },
+    {
+      "text": "주관식 테스트입니다.",
+      "type": "주관식",
+      "answer": "test"
+    },
+    {
+      "text": "test",
+      "type": "OX",
+      "answer": "O"
+    }
+  ]
+}
